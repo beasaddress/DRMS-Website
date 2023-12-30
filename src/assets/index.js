@@ -23,8 +23,15 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import mainLogo from "./mainLogo.png";
+import contraCosta from "./contraCosta.png";
+import elDorado from "./elDorado.png";
+import longBeach from "./longBeach.png";
+import sacCounty from "./sacCounty.png";
 
-export {
+
+
+export default {
   airbnb,
   bill,
   binance,
@@ -50,4 +57,9 @@ export {
   people01,
   people02,
   people03,
+  mainLogo,
+  elDorado,
+  longBeach,
+  sacCounty,
+  contraCosta,
 };

@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, contraCosta, sacCounty, elDorado, longBeach, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -6,40 +6,47 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "services",
+    title: "Services",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "testimonials",
+    title: "Testimonials",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "contact",
+    title: "Contact",
   },
 ];
 
-export const features = [
+export const services = [
   {
-    id: "feature-1",
+    id: "service-1",
     icon: star,
-    title: "Rewards",
+    title: "Safety & Loss Prevention",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Site inspections and corresponding reports to ensure statutory compliance.",
   },
   {
-    id: "feature-2",
+    id: "service-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Claims Management Services",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Workers' Compensation, Liability, Property and all other lines of coverage.",
   },
   {
-    id: "feature-3",
+    id: "service-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Contract Insurance Requirements",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Insurance Requirements, Limitation of Liability, Warranty, Indemnification provision.",
+  },
+  {
+    id: "service-4",
+    icon: shield,
+    title: "Risk Management Services",
+    content:
+      "Assist with special rpoject work, provide interim staff support based on each clients' needs.",
   },
 ];
 
@@ -73,18 +80,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Active Years in the industry",
+    value: "20+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Trusted by Clients",
+    value: "50+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "in assets protected",
+    value: "$50M+",
   },
 ];
 
@@ -180,18 +187,18 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: contraCosta,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: sacCounty,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: elDorado,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: longBeach,
   },
 ];
