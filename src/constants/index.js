@@ -1,4 +1,5 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, contraCosta, sacCounty, elDorado, longBeach, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, sacCounty, contraCosta, elDorado, longBeach, send, shield, star } from "../assets/index.js";
+
 
 export const navLinks = [
   {
@@ -187,11 +188,11 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: contraCosta,
+    logo: sacCounty,
   },
   {
     id: "client-2",
-    logo: sacCounty,
+    logo: contraCosta,
   },
   {
     id: "client-3",

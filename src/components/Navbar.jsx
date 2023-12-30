@@ -1,5 +1,5 @@
 import { useState} from 'react';
-import mainLogo from '../assets/index';
+import mainLogo from '../assets/mainLogo.png';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
