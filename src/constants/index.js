@@ -5,14 +5,17 @@ import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import linkedin from "../assets/linkedin.svg";
 import longBeach from "../assets/longBeach.png";
-import send from "../assets/Send.svg";
-import shield from "../assets/Shield.svg";
-import star from "../assets/Star.svg";
+import risk from "../assets/risk.svg";
+import napa from "../assets/napa.png";
+import alameda from '../assets/alameda.png';
+import claims from "../assets/claims.svg";
+import contract from "../assets/contract.svg";
 import sacCounty from "../assets/sacCounty.png";
 import twitter from "../assets/twitter.svg";
 import people01 from "../assets/people01.png";
 import people02 from "../assets/people02.png";
 import people03 from "../assets/people03.png";
+import safety from "../assets/safety.svg";
 
 export const navLinks = [
   {
@@ -36,31 +39,31 @@ export const navLinks = [
 export const services = [
   {
     id: "service-1",
-    icon: star,
+    icon: safety,
     title: "Safety & Loss Prevention",
     content:
       "Site inspections and corresponding reports to ensure statutory compliance.",
   },
   {
     id: "service-2",
-    icon: shield,
+    icon: claims,
     title: "Claims Management Services",
     content:
       "Workers' Compensation, Liability, Property and all other lines of coverage.",
   },
   {
     id: "service-3",
-    icon: send,
+    icon: contract,
     title: "Contract Insurance Requirements",
     content:
       "Insurance Requirements, Limitation of Liability, Warranty, Indemnification provision.",
   },
   {
     id: "service-4",
-    icon: shield,
+    icon: risk,
     title: "Risk Management Services",
     content:
-      "Assist with special rpoject work, provide interim staff support based on each clients' needs.",
+      "Assist with special project work, provide interim staff support based on each clients' needs.",
   },
 ];
 
@@ -68,25 +71,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Marco Sandoval, the Principal Consultant at DRMS is a highly experienced Risk Management professional with over 30 years of experience. His experience in both the private and public sectors proved to be of tremendous assistance to me during my tenure at Ingram Micro. Mr. Sandoval supported Ingram Micro’s Risk Management goals for over two years, specifically with the development of the company’s Enterprise Risk Management (ERM) program and developing and implementing standard organizational insurance requirement templates. If there is any organization looking for the right expertise, they need to consider Mr. Sandoval’s services!",
+    name: "Guillermo Hernandez, Risk Manager",
+    title: "Ingram Micro",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "During my term as Risk Manager for Long Beach Transit, Marco Sandoval, the Principal Consultant at DRMS partnered with me in various areas to achieve the department’s goals.  He proved to be a key part of the contract review team. His analyses and recommendations were clear, concise and on point resulting in time saving and moving contract negotiations to resolution. Mr. Sandoval also conducted an introductory “Insurance 101 and Contract Review” training presentation for the Purchasing Department Team to assist them in recognizing the implications of key insurance and risk management terms in contracts.",
+    name: "Noriel Sandoval, Risk Manager",
+    title: "Long Beach Transit",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "The services of DRMS were retained at a crucial time in the Risk Management Department during the absence of the Risk Manager who was called to active military duty. Specifically, the Principal Consultant, Marco Sandoval, was called upon to support the area of contract review and analysis, as well mentor onboarding risk management personnel. Mr. Sandoval’s breadth and depth of experience proved invaluable, particularly regarding the County’s general liability and professional liability insurance programs, and the accurate and timely submission of renewal applications and corresponding supporting documentation. Mr. Sandoval proved to be a key resource for new staff, particularly in the areas of workers’ compensation, loss prevention, contracts, and insurance. He was often available for staff both in person and virtually to ensure goals were met. In retrospect it is evident that without DRMS the County’s programs would have been compromised. The Principal Consultant, Marco Sandoval, is a trustworthy and hardworking risk management professional and the results of his efforts confirm this to be the case time and again. ",
+    name: "Robert Schroeder, Risk Manager",
+    title: "El Dorado County",
     img: people03,
   },
 ];
@@ -201,11 +204,11 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: sacCounty,
+    logo: contraCosta,
   },
   {
     id: "client-2",
-    logo: contraCosta,
+    logo: sacCounty,
   },
   {
     id: "client-3",
@@ -214,5 +217,13 @@ export const clients = [
   {
     id: "client-4",
     logo: longBeach,
+  },
+  {
+    id: "client-4",
+    logo: napa,
+  },
+  {
+    id: "client-4",
+    logo: alameda,
   },
 ];
