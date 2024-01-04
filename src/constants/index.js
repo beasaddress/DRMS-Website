@@ -1,5 +1,18 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, sacCounty, contraCosta, elDorado, longBeach, send, shield, star } from "../assets/index.js";
 
+import contraCosta from "../assets/contraCosta.png";
+import elDorado from "../assets/elDorado.png";
+import facebook from "../assets/facebook.svg";
+import instagram from "../assets/instagram.svg";
+import linkedin from "../assets/linkedin.svg";
+import longBeach from "../assets/longBeach.png";
+import send from "../assets/Send.svg";
+import shield from "../assets/Shield.svg";
+import star from "../assets/Star.svg";
+import sacCounty from "../assets/sacCounty.png";
+import twitter from "../assets/twitter.svg";
+import people01 from "../assets/people01.png";
+import people02 from "../assets/people02.png";
+import people03 from "../assets/people03.png";
 
 export const navLinks = [
   {
@@ -82,7 +95,7 @@ export const stats = [
   {
     id: "stats-1",
     title: "Active Years in the industry",
-    value: "20+",
+    value: "40+",
   },
   {
     id: "stats-2",
@@ -91,8 +104,8 @@ export const stats = [
   },
   {
     id: "stats-3",
-    title: "in assets protected",
-    value: "$50M+",
+    title: "Repeat Business Rate",
+    value: "95%",
   },
 ];
 
