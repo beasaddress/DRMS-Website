@@ -20,7 +20,7 @@ const ServiceCard = ({ icon, title, content, index }) => (
 
 const Business = () => {
   return (
-    <section id="features" className={layout.section}>
+    <section id="services" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>You do the business, <br className="sm:block hidden"/> we'll handle the all the risk.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>

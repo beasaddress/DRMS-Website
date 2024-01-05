@@ -10,9 +10,9 @@ import { navLinks } from '../constants';
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 justify-between items-center navbar ">
       <img src={mainLogo} alt="drms" className="w-[344px] h-[82px]"/>
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1 z-[10]">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
