@@ -28,7 +28,7 @@ const Hero = () => (
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Boutique Risk Management and Loss Prevention Services that are customized for the individual needs of each client</p>
       </div>
       <div>
-        <img src={handshake} alt="handshake" className="relative w-full h-[auto] transform scale-150 bottom-20 z-[5]"/>  {/* max-w-[64rem] */}
+        <img src={handshake} alt="handshake" className="relative w-full h-[auto] transform scale-150 bottom-20 z-[5] handshake"/>  {/* max-w-[64rem] */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient"/>  
         <div className="absolute z-[1] w-[80%] h-[85%] rounded-full bottom-40 white__gradient"/> 
         <div className="absolute z-[0] w-[50%] h-[55%] right-20 bottom-20 blue__gradient"/>  

@@ -18,11 +18,29 @@
   scroll-behavior: smooth;
 }
 .mainLogo {
-  margin-top: -120px;
+  margin-top: -80px;
 }
 .contactLogo {
   margin-top: -180px;
 }
+
+/* .handshake {
+  animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+      transform: translateY(-20px);
+  }
+  50% {
+      transform: translateY(20px);
+  }
+  100% {
+      transform: translateY(-20px);
+  }
+}
+*/
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,

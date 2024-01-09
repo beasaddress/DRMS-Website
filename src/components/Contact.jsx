@@ -78,23 +78,24 @@ const Contact = () => {
     </div>
 
   <div className="flex-1 flex flex-col">
+
       <h2 className="mb-4 text-4xl font-poppins font-extrabold text-center text-white">Ready to get started?</h2>
       <p className="mb-8 lg:mb-8 font-poppins font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Leave an inquiry below</p>
       <form onSubmit={handleSubmit} action="#" className="space-y-7">
             <div>
-              <input type="text" id="firstName" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required />
+              <input type="text" id="firstName" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} className="block p-3 w-full text-sm text-white bg-transparent rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" required />
           </div> 
           <div>              
-              <input type="text" id="lastName" value={formDetails.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)} className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required />
+              <input type="text" id="lastName" value={formDetails.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)} className="block p-3 w-full text-sm text-white bg-transparent rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" required />
           </div> 
           <div>              
-              <input type="email" id="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required />
+              <input type="email" id="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} className="shadow-sm bg-transparent border border-gray-300 text-white text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 " required />
           </div>
           <div>              
-              <input type="text" id="company" value={formDetails.company} placeholder="Your Company" onChange={(e) => onFormUpdate('company', e.target.value)} className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" required />
+              <input type="text" id="company" value={formDetails.company} placeholder="Your Company" onChange={(e) => onFormUpdate('company', e.target.value)} className="block p-3 w-full text-sm text-white bg-transparent rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" required />
           </div>
           <div className="sm:col-span-2">              
-              <textarea id="message" rows="6" value={formDetails.message} placeholder="Leave your inquiry here..." onChange={(e) => onFormUpdate('message', e.target.value)} className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" ></textarea>
+              <textarea id="message" rows="6" value={formDetails.message} placeholder="Leave your inquiry here..." onChange={(e) => onFormUpdate('message', e.target.value)} className="block p-2.5 w-full text-sm text-white bg-transparent rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" ></textarea>
           </div>
           <button type="submit" className={`py-4 px-6 bg-gold-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles}`}>{buttonText}</button>
           {
