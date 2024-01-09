@@ -3,6 +3,7 @@ import mainLogo from '../assets/mainLogo.png';
 import menu from '../assets/menu.svg';
 import close from '../assets/close.svg';
 import { navLinks } from '../constants';
+import mainLogo4 from '../assets/mainLogo4.png';
 
 
 
@@ -10,8 +11,8 @@ import { navLinks } from '../constants';
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar ">
-      <img src={mainLogo} alt="drms" className="w-[344px] h-[82px]"/>
+    <nav className="w-full flex py-6 justify-between items-center navbar">
+      <img src={mainLogo4} alt="drms" className="w-[644px] h-[282px] z-[9999] mainLogo" /> {/*w-[644px] h-[382px] */}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 z-[10]">
         {navLinks.map((nav, index) => (
           <li

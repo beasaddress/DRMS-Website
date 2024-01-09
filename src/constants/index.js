@@ -18,6 +18,9 @@ import person01 from "../assets/person01.png";
 import person02 from "../assets/person02.png";
 import person03 from "../assets/person03.png";
 import safety from "../assets/safety.svg";
+import linked from "../assets/linked.svg";
+import email from "../assets/email.svg";
+import address from "../assets/address.svg";
 
 export const navLinks = [
   {
@@ -66,6 +69,28 @@ export const services = [
     title: "Risk Management Services",
     content:
       "Assist with special project work, provide interim staff support based on each clients' needs.",
+  },
+];
+
+export const inquiries = [
+  {
+    id: "linkedIn",
+    icon: linked,
+    title: "LinkedIn",
+    content: "Mr. Sandoval's Profile",
+    link: "https://www.linkedin.com/in/marco-sandoval-b707b288/",
+  },
+  {
+    id: "email",
+    icon: email,
+    title: "Email",
+    content: "marco@diversityrisk.com",
+  },
+  {
+    id: "address",
+    icon: address,
+    title: "Mailing Address",
+    content: "1911 Douglas Boulevard, Suite 85-430, Roseville, CA 95661"
   },
 ];
 
