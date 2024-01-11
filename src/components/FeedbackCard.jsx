@@ -3,7 +3,7 @@ import quotes from '../assets/quotes.svg';
 const FeedbackCard = ({ content, name, title, img }) => (
     <div className="flex flex-col items-start px-10 py-12 rounded-[20px] w-[full] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
       <img src={quotes} alt="quote" className="w-[42px] h-[27px] object-contain"/>
-      <p className="font-poppins font-normal text-[18px] leading-[32px] text-white my-10">{content}</p>      
+      <p className="font-poppins italic text-[18px] leading-[32px] text-justify text-white my-10">{content}</p>      
       <div className="flex flex-row">
         <img src={img} alt={name} className="w-[55px] h-[55px] rounded-full" />
         <div className="flex flex-col ml-4">

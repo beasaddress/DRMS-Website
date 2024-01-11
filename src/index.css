@@ -18,14 +18,16 @@
   scroll-behavior: smooth;
 }
 .mainLogo {
-  margin-top: -80px;
+  margin-top: -140px;
 }
 .contactLogo {
-  margin-top: -180px;
+  margin-top: -250px;
+  margin-left: -80px;
 }
-
-/* .handshake {
+/*
+ .handshake {
   animation: updown 3s linear infinite;
+  margin-top: -150px;
 }
 
 @keyframes updown {
@@ -39,7 +41,7 @@
       transform: translateY(-20px);
   }
 }
-*/
+ */
 
 .text-gradient {
   background: radial-gradient(

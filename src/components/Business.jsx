@@ -1,3 +1,4 @@
+
 import { services } from '../constants/index.js';
 import styles, { layout } from '../style';
 import Button from './Button';
@@ -23,8 +24,8 @@ const Business = () => {
     <section id="services" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>You do the business, <br className="sm:block hidden"/> we'll handle the all the risk.</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        DRMS supports clients with unique and challenging projects, as well as provide interim staff support. We take on the duty of guiding our clients in advancing a well-thought-out strategic plan to identify, control, develop and implement solid loss prevention measures.  The principal Consultant, Marco Sandoval, brings over 40 years of experience in Risk Management, Insurance, Loss Prevention and Safety in both private and public sectors. On top of being an active member of Risk & Insurance Management Society Inc (RIMS) and Public Agency Risk Management Association (PARMA), DRMS also stands as an <span className="text-gradient font-semibold"><a href="https://www.prismrisk.gov/services/risk-management/enterprise-risk-consultants/Enterprise-Risk-Consultants-Guide/#page=14" target="_blank">Enterprise Risk Consultant at Public Risk Innovation, Solutions, and Management (PRISM).</a></span>
+        <p className={`${styles.paragraph} text-justify max-w-[470px] mt-5`}>
+            DRMS supports clients with unique and challenging projects, as well as provide interim        staff support. We take on the duty of guiding our clients in advancing a well-thought-out       strategic plan to identify, control, develop and implement solid loss prevention measures.      The principal Consultant, Marco Sandoval, brings over 40 years of experience in Risk      Management, Insurance, Loss Prevention and Safety in both private and public sectors. On       top of being an active member of Risk & Insurance Management Society Inc (RIMS) and Public        Agency Risk Management Association (PARMA), The Principal Consultant also participates as       an <span className="text-gradient font-semibold"><a href="https://www.prismrisk.gov/       services/risk-management/enterprise-risk-consultants/Enterprise-Risk-Consultants-Guide/     #page=14" target="_blank">Enterprise Risk Consultant at Public Risk Innovation, Solutions,       and Management (PRISM).</a></span>      
         </p>
         <Button styles="mt-10"/>
       </div>

@@ -34,17 +34,19 @@ contactEmail.verify((error) => {
 });
 
 router.post("/contact", (req, res) => {
-    const name = req.body.firstName + req.body.lastName;
+    const fullName = req.body.fullName;
     const email =  req.body.email;
     const message = req.body.message;
     const phone = req.body.phone;
+    const company = req.body.company;
     const mail = {
-        from: name,
+        from: fullName,
         to: "beasaddress@gmail.com",
         subject: "Contact Form Submission",
-        html: `<p>Name: ${name}</p>
+        html: `<p>Name: ${fullName}</p>
                <p>Email: ${email}</p>
                <p>Phone: ${phone}</p>
+               <p>Company: ${company}</p>
                <p>Message: ${message}</p>`,
 
     };

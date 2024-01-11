@@ -25,6 +25,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import mainLogo from "./mainLogo.png";
 import mainLogo4 from "./mainLogo4.png";
+import mainLogo6 from "./mainLogo6.png";
 import contraCosta from "./contraCosta.png";
 import elDorado from "./elDorado.png";
 import longBeach from "./longBeach.png";
@@ -32,6 +33,8 @@ import sacCounty from "./sacCounty.png";
 import linked from "./linked.svg";
 import email from "./email.svg";
 import address from "./address.svg";
+import newHero from "./newHero.png";
+import newHeroCrop from "./newHeroCrop.png";
 
 
 
@@ -69,5 +72,8 @@ export default {
   email,
   address,
   mainLogo4,
-  contraCosta,  
+  mainLogo6,
+  contraCosta,
+  newHero,
+  newHeroCrop,
 };

@@ -90,7 +90,7 @@ export const inquiries = [
     id: "address",
     icon: address,
     title: "Mailing Address",
-    content: "1911 Douglas Boulevard, Suite 85-430, Roseville, CA 95661"
+    content: "1911 Douglas Boulevard, Suite 85-430 \nRoseville, CA 95661"
   },
 ];
 
@@ -98,7 +98,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Marco Sandoval, the Principal Consultant at DRMS is a highly experienced Risk Management professional with over 30 years of experience. His experience in both the private and public sectors proved to be of tremendous assistance to me during my tenure at Ingram Micro. Mr. Sandoval supported Ingram Micro’s Risk Management goals for over two years, specifically with the development of the company’s Enterprise Risk Management (ERM) program and developing and implementing standard organizational insurance requirement templates. If there is any organization looking for the right expertise, they need to consider Mr. Sandoval’s services!",
+      "Marco Sandoval, the Principal Consultant at DRMS is a highly experienced Risk Management professional with over 40 years of experience. His experience in both the private and public sectors proved to be of tremendous assistance to me during my tenure at Ingram Micro. Mr. Sandoval supported Ingram Micro’s Risk Management goals for over two years, specifically with the development of the company’s Enterprise Risk Management (ERM) program and developing and implementing standard organizational insurance requirement templates. If there is any organization looking for the right expertise, they need to consider Mr. Sandoval’s services!",
     name: "Guillermo Hernandez, Risk Manager",
     title: "Ingram Micro",
     img: person01,

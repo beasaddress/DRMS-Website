@@ -1,13 +1,13 @@
 import { useState } from "react";
 import mainLogo from '../assets/mainLogo.png';
-import mainLogo4 from '../assets/mainLogo4.png';
+import mainLogo6 from '../assets/mainLogo6.png';
 import styles, { layout } from '../style';
 import { inquiries } from '../constants/index.js';
 
 const Contact = () => {
     const formInitialDetails = {
-        firstName: '',
-        lastName: '',
+        fullName: '',        
+        phone: '', 
         email: '',
         company: '',
         message: '',
@@ -58,7 +58,7 @@ const Contact = () => {
                 {content}
               </a>
             ) : (
-              <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1">{content}</p>
+              <p style={{ whiteSpace: "pre-line" }} className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1">{content}</p>
             )}
           </div>
         </div>
@@ -68,8 +68,8 @@ const Contact = () => {
     return (
 <section id="contact" className={layout.section}>
     <div className={`flex-1 flex justify-center items-start md:ml-0 ml-0 md:mt-0 mt-10 relative flex-col`}>
-        <img src={mainLogo4} className="contactLogo z-[0]"/>
-        <p className="mb-8 mt-5 mr-10 lg:mb-8 font-poppins font-light text-start text-gray-500 dark:text-gray-400 sm:text-xl">Explore how we can collaborate to safeguard your business against potential threats. Connect with the Principal Consultant and recieve a response in 1 business day.</p>
+        <img src={mainLogo6} className="contactLogo z-[0]"/>
+        <p className="mb-8 mt-5 mr-10 lg:mb-8 font-poppins font-light text-start text-gray-500 dark:text-gray-400 sm:text-xl">Explore how we can collaborate to safeguard your business to implement effective risk management strategies. </p>
          <div className={`flex-1 flex justify-between items-start sm:mb-10 md:ml-0 ml-0 md:mt-0 mt-0 relative flex-col`}>
     {inquiries.map((inquiry, index) => (
           <InquiryCard key={inquiries.id} {...inquiry} index={index}/>
@@ -80,14 +80,14 @@ const Contact = () => {
   <div className="flex-1 flex flex-col">
 
       <h2 className="mb-4 text-4xl font-poppins font-extrabold text-center text-white">Ready to get started?</h2>
-      <p className="mb-8 lg:mb-8 font-poppins font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Leave an inquiry below</p>
+      <p className="mb-8 lg:mb-8 font-poppins font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Connect with DRMS today!</p>
       <form onSubmit={handleSubmit} action="#" className="space-y-7">
             <div>
-              <input type="text" id="firstName" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} className="block p-3 w-full text-sm text-white bg-transparent rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" required />
+              <input type="text" id="fullName" value={formDetails.fullName} placeholder="Full Name" onChange={(e) => onFormUpdate('fullName', e.target.value)} className="block p-3 w-full text-sm text-white bg-transparent rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" required />
           </div> 
           <div>              
-              <input type="text" id="lastName" value={formDetails.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)} className="block p-3 w-full text-sm text-white bg-transparent rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" required />
-          </div> 
+              <input type="tel" id="phone" value={formDetails.phone} placeholder="Phone Number" onChange={(e) => onFormUpdate('phone', e.target.value)} className="shadow-sm bg-transparent border border-gray-300 text-white text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 " required />
+          </div>
           <div>              
               <input type="email" id="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} className="shadow-sm bg-transparent border border-gray-300 text-white text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 " required />
           </div>
