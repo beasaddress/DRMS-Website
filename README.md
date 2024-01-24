@@ -1,8 +1,42 @@
-# React + Vite
+# Company website for Client - Diversity Risk Management Services (DRMS)
+by Beatriz Elizabeth Sandoval ![Github license](https://img.shields.io/badge/license--yellowgreen.svg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+* [Description](#description)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* [Installation](#installations)
+
+* [Usage](#usage)
+
+* [Questions](#questions)
+
+* [Contributions](#contributions)
+
+* [Testing](#testing)
+
+* [License](#license)
+
+
+## Description
+A company website for DRMS which showcases a Single Page Application with a fully functional server side in which users can message the email address of the Principal consultantly directly and immediately. 
+
+## Installations
+Dependencies include Bootstrap, cors, dotenv, express, nodemailer, react, react-bootstrap, react-dom, react-router-dom, vite, and tailwindcss.
+
+## Usage
+JSX, JavaScript, HTML, CSS.
+
+## Questions 
+* Name - Beatriz Elizabeth Sandoval
+* Email - beasaddress@gmail.com
+* GitHub - https://github.com/beasaddress/
+
+## Contributions
+Request pull request.
+
+## Testing
+Run 'npm run test'
+
+## License
+This application is covered under the  license.
