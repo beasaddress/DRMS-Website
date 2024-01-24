@@ -18,7 +18,7 @@ const contactEmail = nodemailer.createTransport({
     service: 'gmail',
     port: 5000,
     auth: {
-        user: 'beasaddress@gmail.com',
+        user: 'marco@diversityrisk.com',
         pass: process.env.EMAIL_PASS,       
     },
     authMethod: 'PLAIN',
@@ -41,7 +41,7 @@ router.post("/contact", (req, res) => {
     const company = req.body.company;
     const mail = {
         from: fullName,
-        to: "beasaddress@gmail.com",
+        to: "marco@diversityrisk.com",
         subject: "Contact Form Submission",
         html: `<p>Name: ${fullName}</p>
                <p>Email: ${email}</p>

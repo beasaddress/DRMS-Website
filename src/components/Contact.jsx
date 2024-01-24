@@ -67,17 +67,17 @@ const Contact = () => {
 
     return (
 <section id="contact" className={layout.section}>
-    <div className={`flex-1 flex justify-center items-start md:ml-0 ml-0 md:mt-0 mt-10 relative flex-col`}>
+    <div className={`flex-1 flex justify-center items-center md:ml-0 ml-0 md:mt-0 mt-10 relative flex-col`}>        
         <img src={mainLogo6} className="contactLogo z-[0]"/>
-        <p className="mb-8 mt-5 mr-10 lg:mb-8 font-poppins font-light text-start text-gray-500 dark:text-gray-400 sm:text-xl">Explore how we can collaborate to safeguard your business to implement effective risk management strategies. </p>
-         <div className={`flex-1 flex justify-between items-start sm:mb-10 md:ml-0 ml-0 md:mt-0 mt-0 relative flex-col`}>
+        <p className="mb-8 mt-5 mr-10 lg:mb-8 font-poppins font-light text-start text-gray-500 dark:text-gray-400 sm:text-xl contactText">Explore how we can collaborate to safeguard your business to implement effective risk management strategies. </p>        
+         <div className={`flex-1 ss:flex hidden justify-between items-start sm:mb-10 md:ml-0 ml-0 md:mt-0 mt-0 relative flex-col`}>
     {inquiries.map((inquiry, index) => (
           <InquiryCard key={inquiries.id} {...inquiry} index={index}/>
         ))}
     </div>   
     </div>
 
-  <div className="flex-1 flex flex-col">
+  <div className="flex-1 flex flex-col ">
 
       <h2 className="mb-4 text-4xl font-poppins font-extrabold text-center text-white">Ready to get started?</h2>
       <p className="mb-8 lg:mb-8 font-poppins font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Connect with DRMS today!</p>
@@ -95,9 +95,9 @@ const Contact = () => {
               <input type="text" id="company" value={formDetails.company} placeholder="Your Company" onChange={(e) => onFormUpdate('company', e.target.value)} className="block p-3 w-full text-sm text-white bg-transparent rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500" required />
           </div>
           <div className="sm:col-span-2">              
-              <textarea id="message" rows="6" value={formDetails.message} placeholder="Leave your inquiry here..." onChange={(e) => onFormUpdate('message', e.target.value)} className="block p-2.5 w-full text-sm text-white bg-transparent rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" ></textarea>
+              <textarea id="message" rows="6" value={formDetails.message} placeholder="Let's Connect..." onChange={(e) => onFormUpdate('message', e.target.value)} className="block p-2.5 w-full text-sm text-white bg-transparent rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" ></textarea>
           </div>
-          <button type="submit" className={`py-4 px-6 bg-gold-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles}`}>{buttonText}</button>
+          <button type="submit" className={`py-4 px-6 bg-gold-gradient font-poppins font-medium text-[18px] text-primary outline-none sendButton ${styles}`}>{buttonText}</button>
           {
             status.message &&
             <div className="mb-8 lg:mb-8 font-poppins font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl status">
@@ -105,6 +105,11 @@ const Contact = () => {
             </div>
           }
       </form>
+  </div>
+  <div className={`flex-1 ss:hidden justify-between items-start sm:mb-10 md:ml-0 ml-0 md:mt-0 mt-10 relative flex-col`}>
+  {inquiries.map((inquiry, index) => (
+          <InquiryCard key={inquiries.id} {...inquiry} index={index}/>
+        ))}
   </div>
 
 </section>

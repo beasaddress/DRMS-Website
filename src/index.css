@@ -17,31 +17,74 @@
 * {
   scroll-behavior: smooth;
 }
-.mainLogo {
-  margin-top: -140px;
+
+.navbar {
+ margin-top: -110px; 
 }
+@media (max-width: 767px) {
+  .heroIntro {
+    margin-bottom: 90px;
+  }
+}
+
+.mobileMenu {
+  position: fixed !important;
+  width: 40vh;
+  top: 40px;
+  left: 30px; 
+  
+}
+@media (max-width: 667px) {
+  .mobileMenu {
+    right: 210px;
+  }
+}
+@media (max-width: 667px) {
+  .stats {
+    margin: 10%;
+  }
+}
+
+
+.mainLogo { 
+  margin-left: -80px;
+  padding-top: 2px;  
+}
+
+@media (max-width: 767px) {
+  .mainLogo {
+    width: 380px;
+    height: 200px;
+    margin-left: -49px;
+    margin-top: -2px;
+  }
+}
+
 .contactLogo {
   margin-top: -250px;
   margin-left: -80px;
 }
-/*
- .handshake {
-  animation: updown 3s linear infinite;
-  margin-top: -150px;
+
+@media (max-width: 767px) {
+  .contactLogo {
+    margin-top: -180px;
+    margin-left: 0px;
+  }
+  .contactText {
+    margin-left: 40px;
+  }
+}
+.sendButton {
+  border-radius: 5px;
 }
 
-@keyframes updown {
-  0% {
-      transform: translateY(-20px);
-  }
-  50% {
-      transform: translateY(20px);
-  }
-  100% {
-      transform: translateY(-20px);
+@media (max-width: 767px) {
+  .sendButton {
+    width: 100%;
+    border-radius: 5px;
   }
 }
- */
+
 
 .text-gradient {
   background: radial-gradient(
