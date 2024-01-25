@@ -124,20 +124,20 @@ export const stats = [
     value: "40+",
   },
   {
-    id: "stats-1",
-    title: "Client Satisfaction",
-    value: "100%",
-  },
-  {
     id: "stats-3",
     title: "Client Retention",
     value: "95%",
   }, 
-  {    
-  id: "stats-4",
-  title: "2023 Growth Rate",
-  value: "150%",
+  {
+    id: "stats-1",
+    title: "Client Satisfaction",
+    value: "100%",
   },
+  {    
+    id: "stats-4",
+    title: "3yr Growth Rate",
+    value: "150%",
+    },
 ];
 
 export const clients = [
