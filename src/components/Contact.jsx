@@ -69,7 +69,7 @@ const Contact = () => {
 <section id="contact" className={layout.section}>
     <div className={`flex-1 flex justify-center items-center md:ml-0 ml-0 md:mt-0 mt-10 relative flex-col`}>        
         <img src={mainLogo6} className="contactLogo z-[0]"/>
-        <p className="mb-8 mt-5 mr-10 lg:mb-8 font-poppins font-light text-start text-gray-500 dark:text-gray-400 sm:text-xl contactText">Explore how we can collaborate to safeguard your business to implement effective risk management strategies. </p>        
+        <p className="mb-8 mt-5 mr-10 lg:mb-8 font-poppins font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl contactText">Explore how we can collaborate to safeguard your business with effective risk management strategies. </p>        
          <div className={`flex-1 ss:flex hidden justify-between items-start sm:mb-10 md:ml-0 ml-0 md:mt-0 mt-0 relative flex-col`}>
     {inquiries.map((inquiry, index) => (
           <InquiryCard key={inquiries.id} {...inquiry} index={index}/>
