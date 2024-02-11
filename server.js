@@ -1,6 +1,6 @@
 import express from "express";
 const router = express.Router();
-import cors from"cors";
+import cors from "cors";
 import nodemailer from "nodemailer";
 import dotenv from 'dotenv';
 dotenv.config();
