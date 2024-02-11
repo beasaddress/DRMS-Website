@@ -64,8 +64,8 @@ router.post("/contact", (req, res) => {
         } else {
             res.json({ code: 200, status: "Message Sent"});
         }
-    }) 
-})
+    }); 
+});
 
 app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, './dist', 'index.html'));
