@@ -14,7 +14,7 @@ const __dirname = dirname(__filename);
 
 //server used to send emails
 const app = express();
-app.use(express.static(path.resolve(__dirname, '../dist')));
+app.use(express.static(path.resolve(__dirname, './dist')));
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
