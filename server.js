@@ -1,10 +1,15 @@
 import express from "express";
-import path from "path";
 const router = express.Router();
 import cors from "cors";
 import nodemailer from "nodemailer";
 import dotenv from 'dotenv';
 dotenv.config();
+
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 //server used to send emails
 const app = express();
